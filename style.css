@@ -168,3 +168,167 @@ body {
         border: 1px solid transparent;
     }
 }
+
+/* PHONE2 COM PERFIL DENTRO */
+
+.instagram-phone2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+}
+
+.instagram-phone2 img {
+    height: 42rem;
+}
+
+.instagram-continue2{
+    display: flex;
+    align-items: center; /* horizontal */
+    justify-content: space-evenly; /* vertical */
+    flex-direction: column;
+    width:20%;
+    min-height: 15rem;
+    border-radius: 5px;
+    position:absolute;
+    background:linear-gradient(45deg, #9494ff,#ffff00b7,#9494ff);
+    margin-top:40px;
+    
+}
+
+.group2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;  
+      
+}
+
+.instagram-logo2 {
+    height:2.8rem;
+
+}
+
+.profile-photo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-photo2 img {
+    height: 6rem;
+}
+
+.instagram-login2 {
+    background-color: #0095f6;
+    color: #ffffff;
+    padding:8px;
+    border-radius: 4px;
+    
+}
+
+.instagram-logout2 {
+    color: #0095f6;
+}
+
+.not-account2 {
+    color: rgb(160, 160, 160);
+    
+}
+.not-account2:nth-child(1) {
+    margin-top:-1rem;
+    
+}
+
+.link-blue2 {
+    color: #0095f6;
+}
+
+.get-the-app2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.download2 a img {
+    width:8rem;
+    padding:0 2px;
+    background-size:cover;
+}
+
+.app-download2:nth-child(1) {
+    background-image: url('./img/apple-button.png');
+   
+}
+
+.app-download2:nth-child(2) {
+    background-image: url('./img/googleplay-button.png');
+   
+}
+
+/* media queries */
+
+
+@media (max-width: 1024px) {
+    .instagram-wrapper2 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 620px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .instagram-wrapper2 {
+        width: 80%;
+    }
+
+    .instagram-phone2 {
+        display: none;
+    }
+    .instagram-continue2 {
+        width: 80%;
+        min-height:20rem;
+    }
+    
+    .group2 {
+        border: 1px solid transparent;
+    }
+}
+
+/* PERFIL NO PHONE */
+
+.integrate{
+    display: none;
+    align-items: center;
+    justify-content:  center;
+    position:relative;
+
+}
+
+@media(max-width:620px)  {
+    .integrate {
+display:flex;
+    }
+    .instagram-phone2 {
+        display: flex;
+    }
+}
