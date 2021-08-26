@@ -169,7 +169,7 @@ body {
     }
 }
 
-/* PHONE2 COM PERFIL DENTRO */
+/* INTEGRAÇÃO PERFIL NO PHONE 2 */
 
 .instagram-phone2 {
     display: flex;
@@ -273,16 +273,6 @@ body {
     background-size:cover;
 }
 
-.app-download2:nth-child(1) {
-    background-image: url('./img/apple-button.png');
-   
-}
-
-.app-download2:nth-child(2) {
-    background-image: url('./img/googleplay-button.png');
-   
-}
-
 /* media queries */
 
 
@@ -314,7 +304,7 @@ body {
     }
 }
 
-/* PERFIL NO PHONE */
+/* INTEGRATE - PERFIL NO PHONE 2*/
 
 .integrate{
     display: none;
