@@ -138,7 +138,7 @@ body {
     background-image: url('./img/googleplay-button.png');
 }
 
-/* media queries */
+/* media queries 1*/
 
 
 @media (max-width: 1024px) {
@@ -162,6 +162,7 @@ body {
 
     .instagram-continue {
         width: 100%;
+        display: none;
     }
     
     .group {
@@ -273,7 +274,7 @@ body {
     background-size:cover;
 }
 
-/* media queries */
+/* media queries 2 - phone2 */
 
 
 @media (max-width: 1024px) {
